@@ -1,4 +1,3 @@
-@'
 import os
 import sys
 import re
@@ -60,7 +59,7 @@ def run_study_concierge():
     
     user_syllabus = console.input("\n[bold yellow]➔ Enter your syllabus or topics to prepare:[/] ")
     if not user_syllabus.strip():
-        user_syllabus = "Thermodynamics laws, fluid mechanics basics"
+        user_syllabus = "Ai agents, multi-agent frameworks, human-in-the-loop systems"
         
     user_days = console.input("[bold yellow]➔ Enter your preparation timeline:[/] ")
     if not user_days.strip():
@@ -202,4 +201,3 @@ def run_study_concierge():
 
 if __name__ == "__main__":
     run_study_concierge()
-'@ | Out-File -FilePath C:\Users\itzsa\agy2-projects\capstone_project\app.py -Encoding utf8
